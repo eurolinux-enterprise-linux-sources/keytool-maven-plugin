@@ -1,6 +1,6 @@
 Name:             keytool-maven-plugin
 Version:          1.0
-Release:          12%{?dist}
+Release:          13%{?dist}
 Summary:          A plugin that wraps the keytool program and allows to manipulate keystores
 License:          MIT and ASL 2.0
 # http://mojo.codehaus.org/keytool-maven-plugin/
@@ -49,6 +49,9 @@ cp %{SOURCE1} LICENSE-ASL
 %doc LICENSE-MIT LICENSE-ASL
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.0-13
+- Mass rebuild 2013-12-27
+
 * Mon Aug 19 2013 Stanislav Ochotnicky <sochotnicky@redhat.com> - 1.0-12
 - Migrate away from mvn-rpmbuild (#997457)
 
